@@ -27,6 +27,8 @@ That question sits where my two main interests meet:
 
 | Project | What it does | Stack |
 | --- | --- | --- |
+| [**Guard Playground**](https://github.com/Taha-1Git/GuardPlayground) · [**live demo**](https://taha-1git.github.io/GuardPlayground/) | Try to trick a simulated AI agent in your browser and see which defence stops each step: permissions, sandboxed paths, an untrusted-data rule and a call budget. | React · TypeScript · Vite |
+| [**SecureAgent**](https://github.com/Taha-1Git/SecureAgent) | A small agent loop with a permission guard around every tool call, an audit log and 24 tests. | Python |
 | [**PLS-Wireless-KeyGen-Drones**](https://github.com/Taha-1Git/PLS-Wireless-KeyGen-Drones) | Simulates drone tracking from RSSI triangulation, then generates shared secret keys from the wireless channel (Rician fading) using physical-layer security. | Python |
 | [**HireMe-Agent-**](https://github.com/Taha-1Git/HireMe-Agent-) | Four cooperating agents screen a candidate: CV authenticity check, photo verification, live questioning, and a final report. | Python · RAG · LLMs |
 | [**DevLens-AI**](https://github.com/Taha-1Git/DevLens-AI) | An AI assistant that helps you get oriented in an unfamiliar project. | HTML · AI |
@@ -38,7 +40,8 @@ That question sits where my two main interests meet:
 
 A public series on **securing AI agents**. Each project is a small repo with tests and a README that explains the threat it addresses.
 
-- [ ] An agent with tool use and an explicit permission system
+- [x] An agent with tool use and an explicit permission system ([SecureAgent](https://github.com/Taha-1Git/SecureAgent))
+- [x] A live, interactive demo of that guard ([Guard Playground](https://taha-1git.github.io/GuardPlayground/))
 - [ ] A prompt-injection test harness that attacks and scores any agent
 - [ ] A guardrail layer to put in front of an LLM app
 - [ ] An audit-log dashboard for agent actions
